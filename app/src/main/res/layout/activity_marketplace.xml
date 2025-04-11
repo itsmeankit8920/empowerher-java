@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B9E2E7"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- App Banner or Logo -->
+        <ImageView
+            android:id="@+id/donation_banner"
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+            android:src="@drawable/mainlogoforapp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/donation_banner"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Title for the Donation Section -->
+        <TextView
+            android:id="@+id/title_donation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Support EmpowerHer"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:textColor="#FF6F00"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Introduction Text -->
+        <TextView
+            android:id="@+id/introduction_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your support helps us empower women across various domains. Please fill in the details below to contribute to our cause."
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:padding="8dp"/>
+
+        <!-- Name Field -->
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Name"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:textColorHint="#888888" />
+
+        <!-- Email Field -->
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Email"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:inputType="textEmailAddress"
+            android:textColor="#333333"
+            android:textColorHint="#888888" />
+
+        <!-- Why Do You Want to Donate -->
+        <EditText
+            android:id="@+id/input_reason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Why Do You Want to Donate?"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:minLines="4"
+            android:gravity="top"
+            android:textColor="#333333"
+            android:textColorHint="#888888" />
+
+        <!-- Domain of Support -->
+        <Spinner
+            android:id="@+id/spinner_domain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:spinnerMode="dropdown"
+            android:entries="@array/domain_options"
+            android:textColor="#333333"
+            android:textColorHint="#888888" />
+
+        <!-- Donation Amount -->
+        <EditText
+            android:id="@+id/input_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Donation Amount (INR)"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:inputType="number"
+            android:textColor="#333333"
+            android:textColorHint="#888888" />
+
+        <!-- Contact Information -->
+        <EditText
+            android:id="@+id/input_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact Information"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:inputType="phone"
+            android:textColor="#333333"
+            android:textColorHint="#888888" />
+
+        <!-- Pay Button -->
+        <Button
+            android:id="@+id/button_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proceed to Donate"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#FF6F00"
+            android:layout_gravity="center_horizontal"
+            android:padding="14dp"
+            android:elevation="4dp" />
+
+    </LinearLayout>
+</ScrollView>

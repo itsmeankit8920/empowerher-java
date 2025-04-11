@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Accent color (e.g., a shade of orange) -->
+    <color name="textColor">#212121</color> <!-- Dark gray text color -->
+    <color name="navigationBackground">#FFFFFF</color>
+    <!-- Darker shade of the primary color -->
+    <color name="primaryDark">#3700B3</color>
+    <color name="light_blue">#ADD8E6</color>
+    <!-- Accent color used for highlighting elements -->
+    <color name="accentColor">#03DAC5</color>
+    <color name="gradient_start">#FF6F00</color> <!-- Example Start Color -->
+    <color name="gradient_end">#FF8F00</color>
+    <!-- Secondary color for complementary elements -->
+    <color name="secondaryColor">#FF5722</color>
+    <!-- Primary App Colors -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- Background Colors -->
+    <color name="onboarding_background_light">#FFFFFF</color>
+    <color name="onboarding_background_dark">#121212</color>
+
+    <color name="titleColor">#FF5722</color>
+    <color name="sectionHeaderColor">#2196F3</color>
+
+    <!-- Text Colors -->
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="textColorOnboardingTitle">#000000</color>
+    <color name="textColorOnboardingSubtitle">#555555</color>
+
+    <!-- Button Colors -->
+    <color name="buttonColor">#6200EE</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+
+    <!-- Indicator Colors -->
+    <color name="indicatorActive">#6200EE</color>
+    <color name="indicatorInactive">#C0C0C0</color>
+
+    <!-- Miscellaneous Colors -->
+    <color name="lineColor">#E0E0E0</color>
+    <!-- Additional colors can be defined here -->
+    <color name="backgroundColor">#FFFFFF</color>
+
+        <!-- Primary Brand Colors -->
+        <color name="primary">#FF5B8EF5</color>
+        <color name="primary_variant">#FF3366CC</color>
+        <color name="primary_light">#FF8BB1FF</color>
+
+        <!-- Secondary Brand Colors -->
+        <color name="secondary">#FFFF6B9E</color>
+        <color name="secondary_variant">#FFE63E85</color>
+        <color name="secondary_light">#FFFF9EC4</color>
+
+        <!-- Gradient Colors -->
+
+        <color name="gradient_middle">#FF8BB1FF</color>
+
+
+        <!-- Text Colors -->
+        <color name="text_primary">#FF2C3E50</color>
+        <color name="text_secondary">#FF7F8C8D</color>
+        <color name="text_tertiary">#FFB2BEC3</color>
+
+        <!-- Background Colors -->
+        <color name="background">#FFFFFFFF</color>
+        <color name="surface">#FFF8F9FA</color>
+        <color name="card_background">#FFFFFFFF</color>
+
+        <!-- Status Colors -->
+        <color name="success">#FF2ECC71</color>
+        <color name="error">#FFE74C3C</color>
+        <color name="warning">#FFF1C40F</color>
+        <color name="info">#FF3498DB</color>
+
+</resources>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#B9E2E7"
+    tools:context=".home">
+
+
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/toolbar_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="start|center_vertical"
+                android:scaleType="centerInside"
+                android:src="@drawable/newbanner"
+                tools:ignore="DuplicateIds" />
+            <!-- Welcome Section -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:lineSpacingExtra="4dp"
+                android:text="Empower Her is your platform for growth, connection, and empowerment. We provide women with the tools and resources to develop new skills, showcase their handmade products, and connect with a supportive community."
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome to Empower Her"
+                android:textSize="28sp"
+                android:textColor="#4B298A"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+
+            <!-- What We Offer Section -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What We Offer:"
+                android:textSize="20sp"
+                android:textColor="#4B298A"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Skill Development: Learn practical skills through expert-led training programs."
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Digital Marketplace: Sell your handmade creations to a broad audience."
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Community and Collaboration: Connect with other women, share ideas, and grow together."
+                    android:textSize="16sp"
+                    android:textColor="#333333"
+                    android:layout_marginBottom="4dp" />
+            </LinearLayout>
+
+            <!-- Ongoing Training Programs -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ongoing Training Programs"
+                android:textSize="20sp"
+                android:textColor="#4B298A"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/sampletrainingimg1"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Sewing Course" />
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_marginEnd="16dp"
+                        android:src="@drawable/sampletraininging2"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Computer Course" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <!-- Popular Products -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Popular Products"
+                android:textSize="20sp"
+                android:textColor="#4B298A"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <GridView
+                android:id="@+id/grid_popular_products"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="2"
+                android:verticalSpacing="8dp"
+                android:horizontalSpacing="8dp"
+                android:stretchMode="columnWidth"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Community Updates -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Community Updates"
+                android:textSize="20sp"
+                android:textColor="#4B298A"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+            <ImageView
+                android:id="@+id/product_image1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:src="@drawable/earrings" />
+
+            <ImageView
+                android:id="@+id/product_image2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:src="@drawable/vase" />
+
+            <!-- Spinner for Categories -->
+            <!-- Label for Spinner -->
+            <ListView
+                android:id="@+id/list_recent_updates"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:padding="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/see_our_categories"
+                android:textSize="18sp"
+                android:textColor="#4B298A"
+                android:textStyle="bold"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Styled Spinner -->
+            <Spinner
+                android:id="@+id/spinner_categories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:padding="10dp"
+                android:background="@drawable/spinner_bg"
+                android:popupBackground="#BBA1EA" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Bottom Navigation -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation_menu"
+        app:itemIconTint="#FF5722"
+        app:itemTextColor="#FF5722"
+        android:background="#FFFFFF" />
+
+</RelativeLayout>

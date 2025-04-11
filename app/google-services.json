@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "305630997978",
+    "project_id": "ankit-2072c",
+    "storage_bucket": "ankit-2072c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305630997978:android:01b6bdc1c2a66656dfa4e3",
+        "android_client_info": {
+          "package_name": "com.ankit.empowerher"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmX6iNikNSoYu0HZ7vrMo_bKACMPbXPf4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

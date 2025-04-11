@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B5DDFD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Title for the Page -->
+        <TextView
+            android:id="@+id/tv_app_banner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="EmpowerHer"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Discover Empower Her"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/titleColor"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Welcome Message -->
+        <TextView
+            android:id="@+id/welcome_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Empower Her—a vibrant community where women can learn, create, connect, and grow their businesses. Our app is designed to provide you with everything you need to turn your talents into profit and build a sustainable future."
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="24dp"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- Section Header: What You’ll Find -->
+        <TextView
+            android:id="@+id/section_header_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What You’ll Find in Empower Her:"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/sectionHeaderColor"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Skill Development Hub Description -->
+        <TextView
+            android:id="@+id/skill_development_hub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skill Development Hub: Explore our training programs tailored to enhance your skills in areas like crafting, cooking, and design. Learn at your own pace with expert-led tutorials and practical guidance."
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="2dp" />
+
+        <!-- Digital Marketplace Description -->
+        <TextView
+            android:id="@+id/digital_marketplace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Digital Marketplace: Showcase your handmade products, from beautiful crafts to delicious homemade treats, on our user-friendly marketplace. Reach a wider audience and manage your store with ease."
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="2dp" />
+
+        <!-- Community & Networking Description -->
+        <TextView
+            android:id="@+id/community_networking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Community and Networking: Connect with like-minded women, share your experiences, collaborate on projects, and support each other's growth. Our platform fosters a strong network of empowered women."
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="24dp"
+            android:lineSpacingExtra="2dp" />
+
+        <!-- Section Header: How You Generate Profit -->
+        <TextView
+            android:id="@+id/section_header_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How You Generate Profit:"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/sectionHeaderColor"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Zero Brokerage Sales Description -->
+        <TextView
+            android:id="@+id/zero_brokerage_sales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zero Brokerage Sales: List your products on our marketplace with no brokerage fees. This means all the profits from your sales go directly into your pocket."
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="2dp" />
+
+        <!-- Maximized Reach Description -->
+        <TextView
+            android:id="@+id/maximized_reach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maximized Reach: With our platform, your products are visible to a broad audience, increasing your chances of making sales and growing your business."
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="2dp" />
+
+        <!-- Training to Earn More Description -->
+        <TextView
+            android:id="@+id/training_to_earn_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Training to Earn More: By continuously improving your skills through our training programs, you can offer higher-quality products, which can command better prices in the marketplace."
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="24dp"
+            android:lineSpacingExtra="2dp" />
+
+        <!-- Section Header: Our Stakeholders -->
+        <TextView
+            android:id="@+id/section_header_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Stakeholders:"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/sectionHeaderColor"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Women Entrepreneurs Description -->
+        <TextView
+            android:id="@+id/women_entrepreneurs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Women Entrepreneurs: At the heart of Empower Her, our primary stakeholders are the women who use our platform to build their businesses and improve their livelihoods."
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="2dp" />
+
+        <!-- Trainers & Experts Description -->
+        <TextView
+            android:id="@+id/trainers_experts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trainers and Experts: Experienced professionals who provide the knowledge and skills needed to succeed. They play a crucial role in empowering our users with the right tools."
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingExtra="2dp" />
+
+        <!-- Community Supporters Description -->
+        <TextView
+            android:id="@+id/community_supporters"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Community Supporters: Individuals and organizations who believe in our mission and contribute by supporting our community through various means, including buying products, offering mentorship, or investing in the platform's growth."
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="24dp"
+            android:lineSpacingExtra="2dp" />
+
+        <!-- Section Header: Why Empower Her? -->
+        <TextView
+            android:id="@+id/section_header_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Why Empower Her?"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/sectionHeaderColor"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Why Empower Her Description -->
+        <TextView
+            android:id="@+id/why_empower_her"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We believe in the power of women supporting women. Empower Her is more than just an app; it’s a movement to uplift, connect, and empower women from all walks of life. Join us today and start your journey toward financial independence and personal growth!"
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:layout_marginBottom="24dp"
+            android:lineSpacingExtra="2dp" />
+
+        <Button
+            android:id="@+id/btn_get_started"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Started"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FFFFFF"
+            android:background="@color/buttonColor"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="16dp"
+                android:padding="12dp">
+
+                <!-- Left side: Text section -->
+                <LinearLayout
+                    android:layout_width="202dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/product_name_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Beaded Jewels"
+                        android:textColor="#E91E63"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/category_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="Category: Handcrafted Jewelry"
+                        android:textColor="#E91E63"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/price_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="Price: ₹300-₹1500"
+                        android:textColor="#E91E63"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/duration_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="Duration: 2 Days"
+                        android:textColor="#E91E63"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/material_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="Materials: Beads, Threads, decorative wood, wire, clay, stones etc."
+                        android:textColor="#E91E63"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/link_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:clickable="true"
+                        android:text="Watch Tutorial"
+                        android:textColor="#E91E63"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <!-- Right side: Image section -->
+                <ImageView
+                    android:layout_width="157dp"
+                    android:layout_height="157dp"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="Course image"
+                    android:src="@drawable/cb1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp">
+
+            <!-- Text Section -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingEnd="16dp">
+
+                <TextView
+                    android:id="@+id/product_name_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Clay Pots"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#23F82B" />
+
+                <TextView
+                    android:id="@+id/category_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Category: Pottery"
+                    android:textSize="14sp"
+                    android:textColor="#23F82B"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/price_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: ₹150-₹500"
+                    android:textSize="14sp"
+                    android:textColor="#23F82B"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/duration_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Duration: 3 Days"
+                    android:textSize="14sp"
+                    android:textColor="#23F82B"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/material_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Materials: Clay, paint, brushes"
+                    android:textSize="14sp"
+                    android:textColor="#23F82B"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/link_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Watch Tutorial"
+                    android:textSize="14sp"
+                    android:textColor="#23F82B"
+                    android:layout_marginTop="4dp"
+                    android:clickable="true" />
+
+            </LinearLayout>
+
+            <!-- Image Section -->
+            <ImageView
+                android:layout_width="157dp"
+                android:layout_height="157dp"
+                android:src="@drawable/cb2"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+
+
+
+        <!-- Add more training course entries as needed -->
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp">
+
+            <!-- Text Section -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingEnd="16dp">
+
+                <TextView
+                    android:id="@+id/product_name_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Natural Herbal Soaps"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#E91E63" />
+
+                <TextView
+                    android:id="@+id/category_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Category: Organic Soaps"
+                    android:textSize="14sp"
+                    android:textColor="#E91E63"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/price_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: ₹300-₹1200"
+                    android:textSize="14sp"
+                    android:textColor="#E91E63"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/duration_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Duration: 1 Day"
+                    android:textSize="14sp"
+                    android:textColor="#E91E63"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/material_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Materials: Glycerine, Herbal plants, gram flour, honey, vaseline, water gel"
+                    android:textSize="14sp"
+                    android:textColor="#E91E63"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/link_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Watch Tutorial"
+                    android:textSize="14sp"
+                    android:textColor="#E91E63"
+                    android:layout_marginTop="4dp"
+                    android:clickable="true"
+                    android:autoLink="web"
+                    android:linksClickable="true" />
+
+            </LinearLayout>
+
+            <!-- Image Section -->
+            <ImageView
+                android:layout_width="157dp"
+                android:layout_height="157dp"
+                android:src="@drawable/cb3"
+                android:scaleType="centerCrop" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp">
+
+            <!-- Text content -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/product_name_shampoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Natural Herbal Shampoo"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#23F82B" />
+
+                <TextView
+                    android:id="@+id/category_shampoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Category: Organic Soaps"
+                    android:textSize="14sp"
+                    android:textColor="#23F82B"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/price_shampoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: ₹300-₹1200"
+                    android:textSize="14sp"
+                    android:textColor="#23F82B"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/duration_shampoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Duration: 1 Day"
+                    android:textSize="14sp"
+                    android:textColor="#23F82B"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/material_shampoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Materials: Glycerine, Herbal plants, olive oils, gram flour, honey, vaseline, water gel"
+                    android:textSize="14sp"
+                    android:textColor="#23F82B"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/link_shampoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Watch Tutorial"
+                    android:textSize="14sp"
+                    android:textColor="#23F82B"
+                    android:layout_marginTop="4dp"
+                    android:clickable="true"
+                    android:autoLink="web" />
+            </LinearLayout>
+
+            <!-- Image -->
+            <ImageView
+                android:layout_width="157dp"
+                android:layout_height="157dp"
+                android:layout_gravity="end"
+                android:src="@drawable/cb4"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp">
+
+            <!-- Text content -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/product_name_scrubs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Natural Scrubs"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#E91E63" />
+
+                <TextView
+                    android:id="@+id/category_scrubs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Category: Organic Soaps"
+                    android:textSize="14sp"
+                    android:textColor="#E91E63"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/price_scrubs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: ₹300-₹1200"
+                    android:textSize="14sp"
+                    android:textColor="#E91E63"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/duration_scrubs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Duration: 1 Day"
+                    android:textSize="14sp"
+                    android:textColor="#E91E63"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/material_scrubs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Materials: Glycerine, Herbal plants, olive oils, gram flour, honey, vaseline, water gel"
+                    android:textSize="14sp"
+                    android:textColor="#E91E63"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/link_scrubs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Watch Tutorial"
+                    android:textSize="14sp"
+                    android:textColor="#E91E63"
+                    android:layout_marginTop="4dp"
+                    android:clickable="true"
+                    android:autoLink="web" />
+            </LinearLayout>
+
+            <!-- Image -->
+            <ImageView
+                android:layout_width="157dp"
+                android:layout_height="157dp"
+                android:layout_gravity="end"
+                android:src="@drawable/cb5"
+                />
+        </LinearLayout>
+
+
+
+        <!-- Second Section: Deodrants with #23F82B text color -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/product_name_deodrants"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Natural Deodrants"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#23F82B" /> <!-- Green color for text -->
+
+                <TextView
+                    android:id="@+id/category_deodrants"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Category: Organic Perfumes"
+                    android:textSize="14sp"
+                    android:textColor="#23F82B"
+                android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/price_deodrants"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: ₹300-₹1200"
+                    android:textSize="14sp"
+                    android:textColor="#23F82B"/>
+
+                <TextView
+                    android:id="@+id/duration_deodrants"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Duration: 2 Days"
+                    android:textSize="14sp"
+                    android:textColor="#23F82B"
+                android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/material_deodrants"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Materials: Baking soda, Cornstarch, Coconut Oil, Shea butter, Beeswax, Essential oils"
+                    android:textSize="14sp"
+                    android:textColor="#23F82B"
+                android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/link_deodrants"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Watch Tutorial"
+                    android:textSize="14sp"
+                    android:textColor="#23F82B"
+                android:layout_marginTop="4dp"
+                android:clickable="true"
+                android:autoLink="web" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="157dp"
+                android:layout_height="157dp"
+                android:layout_gravity="end"
+                android:src="@drawable/cb6"
+            />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp">
+
+        <!-- Text content for Handmade Cards/Books -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/product_name_handmade_cards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Handmade Cards/Books"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#E91E63" />
+
+            <TextView
+                android:id="@+id/category_handmade_cards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category: Greeting Cards/Notebooks/Bookmarks"
+                android:textSize="14sp"
+                android:textColor="#E91E63"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/price_handmade_cards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: ₹200-₹1000"
+                android:textSize="14sp"
+                android:textColor="#E91E63"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/duration_handmade_cards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Duration: 1 Day"
+                android:textSize="14sp"
+                android:textColor="#E91E63"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/material_handmade_cards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Materials: Colors, Sheets, Notebooks, Decorative Items, Stones, Ribbons"
+                android:textSize="14sp"
+                android:textColor="#E91E63"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/link_handmade_cards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Watch Tutorial"
+                android:textSize="14sp"
+                android:textColor="#E91E63"
+                android:layout_marginTop="4dp"
+                android:clickable="true"
+                android:autoLink="web" />
+        </LinearLayout>
+
+        <!-- Image for Handmade Cards/Books -->
+        <ImageView
+            android:layout_width="157dp"
+            android:layout_height="157dp"
+            android:layout_gravity="end"
+            android:src="@drawable/cb9"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp">
+
+        <!-- Text content for Homemade Jams/Sauces/Jellies -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/product_name_jams"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Homemade Jams/Sauces/Jellies"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#23F82B" />
+
+
+            <TextView
+                android:id="@+id/category_jams"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category: Food"
+                android:textSize="14sp"
+                android:textColor="#23F82B"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/price_jams"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: ₹200-₹2000"
+                android:textSize="14sp"
+                android:textColor="#23F82B"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/duration_jams"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Duration: 2 Days"
+                android:textSize="14sp"
+                android:textColor="#23F82B"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/material_jams"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Materials: Fruits, Sugar, Powdered Sugar, Salt, Vinegar, Tomatoes, Extra Flavour"
+                android:textSize="14sp"
+                android:textColor="#23F82B"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/link_jams"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Watch Tutorials"
+                android:textSize="14sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="4dp"
+                android:clickable="true"
+                android:autoLink="web" />
+        </LinearLayout>
+
+        <!-- Image for Homemade Jams/Sauces/Jellies -->
+        <ImageView
+            android:layout_width="157dp"
+            android:layout_height="157dp"
+            android:layout_gravity="end"
+            android:src="@drawable/cb11"
+            />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp">
+
+            <!-- Text content for Homemade Pickles/Chutney -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/product_name_pickles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Homemade Pickles/Chutney"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="#E91E63" />
+
+                <TextView
+                    android:id="@+id/category_pickles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Category: Food"
+                    android:textSize="14sp"
+                    android:textColor="#E91E63"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/price_pickles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price: ₹200-₹2000"
+                    android:textSize="14sp"
+                    android:textColor="#E91E63"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/duration_pickles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Duration: 4 Weeks"
+                    android:textSize="14sp"
+                    android:textColor="#E91E63"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/material_pickles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Materials: Masalas, Vegetables, Oils, Salt, Grinder/Mixer"
+                    android:textSize="14sp"
+                    android:textColor="#E91E63"
+                    android:layout_marginTop="4dp" />
+
+                <TextView
+                    android:id="@+id/link_pickles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Watch Tutorial"
+                    android:textSize="14sp"
+                    android:textColor="#E91E63"
+                    android:layout_marginTop="4dp"
+                    android:clickable="true"
+                    android:autoLink="web" />
+            </LinearLayout>
+
+            <!-- Image for Homemade Pickles/Chutney -->
+            <ImageView
+                android:layout_width="157dp"
+                android:layout_height="157dp"
+                android:layout_gravity="end"
+                android:src="@drawable/cb10"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

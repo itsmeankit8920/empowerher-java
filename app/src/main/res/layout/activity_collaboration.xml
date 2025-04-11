@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BEE1E6"
+    tools:context=".collaboration">
+
+    <!-- Donation Banner ImageView -->
+
+    <!-- Title TextView -->
+
+    <ImageView
+        android:id="@+id/donation_banner"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/donation_banner"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mainlogoforapp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.3"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Explore with Empowerher's Marketplace"
+        android:textSize="20sp"
+        android:textColor="@color/sectionHeaderColor"
+        app:layout_constraintTop_toBottomOf="@id/donation_banner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold" />
+
+    <!-- Sell ImageView -->
+    <ImageView
+        android:id="@+id/img_sell"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/sell"
+        android:contentDescription="Sell Icon"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"/>
+
+    <!-- Sell Button -->
+    <Button
+        android:id="@+id/btn_sell"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Sell"
+        android:layout_margin="16dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/img_sell"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Purchase ImageView -->
+
+    <!-- Purchase Button -->
+
+    <ImageView
+        android:id="@+id/img_purchase"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="Purchase Icon"
+        android:src="@drawable/purchase"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_sell" />
+
+    <Button
+        android:id="@+id/btn_purchase"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Purchase"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_purchase"
+        app:layout_constraintVertical_bias="0.178" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

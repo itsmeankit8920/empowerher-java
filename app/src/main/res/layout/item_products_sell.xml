@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="#BEE1E6"
+    android:layout_marginBottom="8dp">
+
+    <!-- Product Image -->
+    <ImageView
+        android:id="@+id/img_product"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:scaleType="centerCrop"
+        android:contentDescription="Product Image" />
+
+    <!-- Product Name -->
+    <TextView
+        android:id="@+id/tv_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/img_product"
+        android:layout_marginStart="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <!-- Product Cost -->
+    <TextView
+        android:id="@+id/tv_product_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_product_name"
+        android:layout_toEndOf="@id/img_product"
+        android:layout_marginStart="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray" />
+
+    <!-- Purchase Button -->
+    <Button
+        android:id="@+id/btn_purchase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purchase"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

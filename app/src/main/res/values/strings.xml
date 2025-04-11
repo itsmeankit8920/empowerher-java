@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">empowerher</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="donation_banner">EmpowerHer Donation Banner</string>
+
+    <!-- Spinner Heading -->
+    <string name="see_our_categories">See Our Categories</string>
+
+    <string-array name="domain_options">
+        <item>Skill Development Hub</item>
+        <item>Digital Marketplace</item>
+        <item>Community and Networking</item>
+        <item>General Support</item>
+    </string-array>
+
+    <string-array name="product_categories">
+        <item>Handcrafted Jewelry</item>
+        <item>Organic Soaps</item>
+        <item>Candles</item>
+        <item>Handmade Greeting Cards</item>
+        <item>Homemade Pickles</item>
+        <item>Handwoven Baskets</item>
+        <item>Natural Face Packs</item>
+        <item>Handmade Pottery</item>
+        <item>Herbal Teas</item>
+        <item>Scented Sachets</item>
+        <item>Handcrafted Mats</item>
+        <item>Homemade Chutneys</item>
+        <item>Embroidery Crafts</item>
+        <item>Handmade Quilts</item>
+        <item>Wooden Carvings</item>
+        <item>Homemade Pappadams</item>
+        <item>Organic Candies</item>
+        <item>Handmade Dolls</item>
+        <item>Decorative Rugs</item>
+        <item>Homemade Jam and Jellies</item>
+        <item>Kumkum and Chandan Products</item>
+        <item>Fabric Paintings</item>
+        <item>Herbal Balms</item>
+        <item>Traditional Puppets</item>
+        <item>Natural Scrubs</item>
+        <item>Homemade Pasta</item>
+        <item>Customized Stationery</item>
+        <item>Handwoven Mats</item>
+        <item>Organic Spices</item>
+        <item>Homemade Sauces</item>
+        <item>Decorative Lamps</item>
+        <item>Handcrafted Coasters</item>
+        <item>Homemade Chappals</item>
+        <item>Natural Essential Oils</item>
+        <item>Traditional Quilts</item>
+        <item>Handmade Pottery Items</item>
+        <item>Herbal Hair Oils</item>
+        <item>Handwoven Rugs</item>
+        <item>Homemade Snacks</item>
+        <item>Handmade Clay Figurines</item>
+        <item>Homemade Ice Cream</item>
+        <item>Traditional Embroidery</item>
+        <item>Natural Bath Salts</item>
+        <item>Handcrafted Wooden Toys</item>
+        <item>Herbal Tea Blends</item>
+        <item>Handmade Jewelry</item>
+        <item>Organic Hair Masks</item>
+        <item>Homemade Dried Flowers</item>
+        <item>Handmade Home Décor</item>
+        <item>Herbal Foot Soaks</item>
+        <item>Traditional Clay Lamps</item>
+        <item>Handmade Wooden Coasters</item>
+        <item>Homemade Sausages</item>
+        <item>Natural Deodorants</item>
+        <item>Handcrafted Scented Oils</item>
+        <item>Homemade Bakery Items</item>
+        <item>Handmade Toys</item>
+        <item>Organic Herbal Salves</item>
+        <item>Traditional Rajasthani Crafts</item>
+        <item>Handmade Soap Holders</item>
+        <item>Homemade Noodles</item>
+        <item>Natural Body Butters</item>
+        <item>Handcrafted Potpourri</item>
+        <item>Organic Honey</item>
+        <item>Handmade Woven Bags</item>
+        <item>Homemade Jams and Marmalades</item>
+        <item>Traditional Clay Pots</item>
+        <item>Herbal Tooth Powders</item>
+        <item>Handmade Bookmarkers</item>
+    </string-array>
+</resources>

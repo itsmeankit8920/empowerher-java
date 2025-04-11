@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BEE1E6"
+    android:padding="16dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/tv_sell_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Sell Your Product"
+            android:textSize="24sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/img_product"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Product Image"
+            android:background="@drawable/add_a_photo_24"
+            app:layout_constraintTop_toBottomOf="@id/tv_sell_title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Upload Photo Button -->
+        <Button
+            android:id="@+id/btn_upload_photo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Upload Photo"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#008080"
+            app:layout_constraintTop_toBottomOf="@id/img_product"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Product Name -->
+        <EditText
+            android:id="@+id/et_product_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Product Name"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/btn_upload_photo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Description -->
+        <EditText
+            android:id="@+id/et_description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/et_product_name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Cost -->
+        <EditText
+            android:id="@+id/et_cost"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Cost (e.g., $20)"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:inputType="numberDecimal"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/et_description"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Location -->
+        <EditText
+            android:id="@+id/et_location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Location"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/et_cost"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Expected Delivery Time -->
+        <EditText
+            android:id="@+id/et_delivery_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Expected Delivery Time (e.g., 5 days)"
+            android:background="@drawable/rounded_edittext"
+            android:padding="12dp"
+            android:inputType="text"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@id/et_location"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/btn_submit_sell"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#008080"
+            app:layout_constraintTop_toBottomOf="@id/et_delivery_time"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="16dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
